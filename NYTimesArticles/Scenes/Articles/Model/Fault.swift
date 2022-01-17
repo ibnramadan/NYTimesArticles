@@ -11,29 +11,21 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 
 */
 
-
-
 import Foundation
 import ObjectMapper
 
-struct Response<T: BaseMappable>: Mappable {
-    var status : String?
-    var copyright : String?
-    var num_results : Int?
-    var results : [T]?
+struct Fault : Mappable {
+	var faultstring : String?
+	var detail : Detail?
 
-    init?(map: Map) {
+	init?(map: Map) {
 
-    }
+	}
 
-    mutating func mapping(map: Map) {
+	mutating func mapping(map: Map) {
 
-     
-        status <- map["status"]
-        copyright <- map["copyright"]
-        num_results <- map["num_results"]
-        results <- map["results"]
-    }
+		faultstring <- map["faultstring"]
+		detail <- map["detail"]
+	}
 
 }
-

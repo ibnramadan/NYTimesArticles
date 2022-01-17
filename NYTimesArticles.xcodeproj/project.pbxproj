@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E261DDC02795B8C50053A9C0 /* ArticlesNetworkRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDBF2795B8C50053A9C0 /* ArticlesNetworkRequests.swift */; };
+		E261DDC32795B9440053A9C0 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = E261DDC22795B9440053A9C0 /* ObjectMapper */; };
+		E261DDC52795B96C0053A9C0 /* ArticlesNetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDC42795B96C0053A9C0 /* ArticlesNetworkRouter.swift */; };
+		E261DDC82795B9E80053A9C0 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDC72795B9E80053A9C0 /* NetworkConstants.swift */; };
+		E261DDCD2795BAF80053A9C0 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDC92795BAF80053A9C0 /* Media.swift */; };
+		E261DDCE2795BAF90053A9C0 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDCA2795BAF80053A9C0 /* Article.swift */; };
+		E261DDCF2795BAF90053A9C0 /* Media-metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDCB2795BAF80053A9C0 /* Media-metadata.swift */; };
+		E261DDD02795BAF90053A9C0 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDCC2795BAF80053A9C0 /* Response.swift */; };
 		E2EC0CC52794CFFB00F38784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC0CC42794CFFB00F38784 /* AppDelegate.swift */; };
 		E2EC0CC72794CFFB00F38784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC0CC62794CFFB00F38784 /* SceneDelegate.swift */; };
 		E2EC0CC92794CFFB00F38784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC0CC82794CFFB00F38784 /* ViewController.swift */; };
@@ -16,6 +24,11 @@
 		E2EC0CDC2794CFFF00F38784 /* NYTimesArticlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC0CDB2794CFFF00F38784 /* NYTimesArticlesTests.swift */; };
 		E2EC0CE62794CFFF00F38784 /* NYTimesArticlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC0CE52794CFFF00F38784 /* NYTimesArticlesUITests.swift */; };
 		E2EC0CE82794CFFF00F38784 /* NYTimesArticlesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC0CE72794CFFF00F38784 /* NYTimesArticlesUITestsLaunchTests.swift */; };
+		E2EC0CF62794D39300F38784 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E2EC0CF52794D39300F38784 /* RxCocoa */; };
+		E2EC0CF82794D39300F38784 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2EC0CF72794D39300F38784 /* RxSwift */; };
+		E2EC0CFB2794D3AE00F38784 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E2EC0CFA2794D3AE00F38784 /* Alamofire */; };
+		E2EC0CFE2794D42400F38784 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = E2EC0CFD2794D42400F38784 /* MBProgressHUD */; };
+		E2EC0D012794D47400F38784 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E2EC0D002794D47400F38784 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E261DDBF2795B8C50053A9C0 /* ArticlesNetworkRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesNetworkRequests.swift; sourceTree = "<group>"; };
+		E261DDC42795B96C0053A9C0 /* ArticlesNetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesNetworkRouter.swift; sourceTree = "<group>"; };
+		E261DDC72795B9E80053A9C0 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		E261DDC92795BAF80053A9C0 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		E261DDCA2795BAF80053A9C0 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		E261DDCB2795BAF80053A9C0 /* Media-metadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Media-metadata.swift"; sourceTree = "<group>"; };
+		E261DDCC2795BAF80053A9C0 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		E2EC0CC12794CFFB00F38784 /* NYTimesArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EC0CC42794CFFB00F38784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2EC0CC62794CFFB00F38784 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +76,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E261DDC32795B9440053A9C0 /* ObjectMapper in Frameworks */,
+				E2EC0CFB2794D3AE00F38784 /* Alamofire in Frameworks */,
+				E2EC0CF82794D39300F38784 /* RxSwift in Frameworks */,
+				E2EC0CFE2794D42400F38784 /* MBProgressHUD in Frameworks */,
+				E2EC0CF62794D39300F38784 /* RxCocoa in Frameworks */,
+				E2EC0D012794D47400F38784 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +102,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E261DDBC2795B87A0053A9C0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E261DDBE2795B89F0053A9C0 /* Articles */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E261DDBD2795B8860053A9C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E261DDCC2795BAF80053A9C0 /* Response.swift */,
+				E261DDCB2795BAF80053A9C0 /* Media-metadata.swift */,
+				E261DDC92795BAF80053A9C0 /* Media.swift */,
+				E261DDCA2795BAF80053A9C0 /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E261DDBE2795B89F0053A9C0 /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				E261DDBF2795B8C50053A9C0 /* ArticlesNetworkRequests.swift */,
+				E261DDC42795B96C0053A9C0 /* ArticlesNetworkRouter.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		E261DDC62795B9D80053A9C0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E261DDC72795B9E80053A9C0 /* NetworkConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		E2EC0CB82794CFFB00F38784 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +161,9 @@
 		E2EC0CC32794CFFB00F38784 /* NYTimesArticles */ = {
 			isa = PBXGroup;
 			children = (
+				E261DDC62795B9D80053A9C0 /* Constants */,
+				E261DDBD2795B8860053A9C0 /* Model */,
+				E261DDBC2795B87A0053A9C0 /* Network */,
 				E2EC0CC42794CFFB00F38784 /* AppDelegate.swift */,
 				E2EC0CC62794CFFB00F38784 /* SceneDelegate.swift */,
 				E2EC0CC82794CFFB00F38784 /* ViewController.swift */,
@@ -143,6 +208,14 @@
 			dependencies = (
 			);
 			name = NYTimesArticles;
+			packageProductDependencies = (
+				E2EC0CF52794D39300F38784 /* RxCocoa */,
+				E2EC0CF72794D39300F38784 /* RxSwift */,
+				E2EC0CFA2794D3AE00F38784 /* Alamofire */,
+				E2EC0CFD2794D42400F38784 /* MBProgressHUD */,
+				E2EC0D002794D47400F38784 /* Kingfisher */,
+				E261DDC22795B9440053A9C0 /* ObjectMapper */,
+			);
 			productName = NYTimesArticles;
 			productReference = E2EC0CC12794CFFB00F38784 /* NYTimesArticles.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +288,13 @@
 				Base,
 			);
 			mainGroup = E2EC0CB82794CFFB00F38784;
+			packageReferences = (
+				E2EC0CF42794D39300F38784 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				E2EC0CF92794D3AE00F38784 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E2EC0CFC2794D42400F38784 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				E2EC0CFF2794D47400F38784 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E261DDC12795B9440053A9C0 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+			);
 			productRefGroup = E2EC0CC22794CFFB00F38784 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +338,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E261DDC82795B9E80053A9C0 /* NetworkConstants.swift in Sources */,
+				E261DDCF2795BAF90053A9C0 /* Media-metadata.swift in Sources */,
 				E2EC0CC92794CFFB00F38784 /* ViewController.swift in Sources */,
+				E261DDD02795BAF90053A9C0 /* Response.swift in Sources */,
+				E261DDCE2795BAF90053A9C0 /* Article.swift in Sources */,
+				E261DDCD2795BAF80053A9C0 /* Media.swift in Sources */,
+				E261DDC02795B8C50053A9C0 /* ArticlesNetworkRequests.swift in Sources */,
 				E2EC0CC52794CFFB00F38784 /* AppDelegate.swift in Sources */,
 				E2EC0CC72794CFFB00F38784 /* SceneDelegate.swift in Sources */,
+				E261DDC52795B96C0053A9C0 /* ArticlesNetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +711,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E261DDC12795B9440053A9C0 /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		E2EC0CF42794D39300F38784 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		E2EC0CF92794D3AE00F38784 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E2EC0CFC2794D42400F38784 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		E2EC0CFF2794D47400F38784 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E261DDC22795B9440053A9C0 /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E261DDC12795B9440053A9C0 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+		E2EC0CF52794D39300F38784 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2EC0CF42794D39300F38784 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		E2EC0CF72794D39300F38784 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2EC0CF42794D39300F38784 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		E2EC0CFA2794D3AE00F38784 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2EC0CF92794D3AE00F38784 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E2EC0CFD2794D42400F38784 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2EC0CFC2794D42400F38784 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		E2EC0D002794D47400F38784 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2EC0CFF2794D47400F38784 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E2EC0CB92794CFFB00F38784 /* Project object */;
 }

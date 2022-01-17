@@ -22,6 +22,8 @@
 		E261DDE42795C8AE0053A9C0 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDE22795C8AE0053A9C0 /* Detail.swift */; };
 		E261DDE52795C8AE0053A9C0 /* Fault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDE32795C8AE0053A9C0 /* Fault.swift */; };
 		E261DDE82795CA9D0053A9C0 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDE72795CA9D0053A9C0 /* UIViewController + Extension.swift */; };
+		E261DDEA2796309F0053A9C0 /* UIImageView+DownloadFromUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDE92796309E0053A9C0 /* UIImageView+DownloadFromUrl.swift */; };
+		E261DDEC279633790053A9C0 /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261DDEB279633790053A9C0 /* ArticleDetailsViewController.swift */; };
 		E2EC0CC52794CFFB00F38784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC0CC42794CFFB00F38784 /* AppDelegate.swift */; };
 		E2EC0CC72794CFFB00F38784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC0CC62794CFFB00F38784 /* SceneDelegate.swift */; };
 		E2EC0CCC2794CFFB00F38784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EC0CCA2794CFFB00F38784 /* Main.storyboard */; };
@@ -69,6 +71,8 @@
 		E261DDE22795C8AE0053A9C0 /* Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		E261DDE32795C8AE0053A9C0 /* Fault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fault.swift; sourceTree = "<group>"; };
 		E261DDE72795CA9D0053A9C0 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		E261DDE92796309E0053A9C0 /* UIImageView+DownloadFromUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadFromUrl.swift"; sourceTree = "<group>"; };
+		E261DDEB279633790053A9C0 /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
 		E2EC0CC12794CFFB00F38784 /* NYTimesArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EC0CC42794CFFB00F38784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2EC0CC62794CFFB00F38784 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -210,6 +214,7 @@
 			children = (
 				E2EC0CCA2794CFFB00F38784 /* Main.storyboard */,
 				E261DDD82795BE380053A9C0 /* ArticlesViewController.swift */,
+				E261DDEB279633790053A9C0 /* ArticleDetailsViewController.swift */,
 			);
 			path = "Storyboard + Controller";
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				E261DDE72795CA9D0053A9C0 /* UIViewController + Extension.swift */,
+				E261DDE92796309E0053A9C0 /* UIImageView+DownloadFromUrl.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -435,10 +441,12 @@
 				E261DDCF2795BAF90053A9C0 /* Media-metadata.swift in Sources */,
 				E261DDD02795BAF90053A9C0 /* Response.swift in Sources */,
 				E261DDCE2795BAF90053A9C0 /* Article.swift in Sources */,
+				E261DDEA2796309F0053A9C0 /* UIImageView+DownloadFromUrl.swift in Sources */,
 				E261DDE12795BED50053A9C0 /* ArticlesViewModel.swift in Sources */,
 				E261DDE52795C8AE0053A9C0 /* Fault.swift in Sources */,
 				E261DDDE2795BE9D0053A9C0 /* ArticleTableViewCell.swift in Sources */,
 				E261DDCD2795BAF80053A9C0 /* Media.swift in Sources */,
+				E261DDEC279633790053A9C0 /* ArticleDetailsViewController.swift in Sources */,
 				E261DDC02795B8C50053A9C0 /* ArticlesNetworkRequests.swift in Sources */,
 				E2EC0CC52794CFFB00F38784 /* AppDelegate.swift in Sources */,
 				E2EC0CC72794CFFB00F38784 /* SceneDelegate.swift in Sources */,

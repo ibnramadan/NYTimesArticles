@@ -29,7 +29,7 @@ class ArticlesViewController: UIViewController {
         
     }
     func setupTableView() {
-        //branchesTableView.dataSource = self
+        
         articlesTableView.register(UINib(nibName: articleTableViewCell, bundle: nil), forCellReuseIdentifier: articleTableViewCell)
     }
     func bindToHiddenTable() {
@@ -51,7 +51,7 @@ class ArticlesViewController: UIViewController {
                 .items(cellIdentifier: articleTableViewCell,
                        cellType: ArticleTableViewCell.self)) { row, article, cell in
                         print(row)
-                        cell.textLabel?.text = article.title
+                        cell.setupCell(article : article)
         }
         .disposed(by: disposeBag)
     }
@@ -59,8 +59,11 @@ class ArticlesViewController: UIViewController {
         Observable
             .zip(articlesTableView.rx.itemSelected, articlesTableView.rx.modelSelected(Article.self))
             .bind { [weak self] selectedIndex, article in
-                
                 print(selectedIndex, article.title ?? "")
+                let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                let articleDetailsViewController = storyBoard.instantiateViewController(withIdentifier: "ArticleDetailsViewController") as! ArticleDetailsViewController
+                articleDetailsViewController.article = article
+                self?.navigationController?.pushViewController(articleDetailsViewController, animated:true)
         }
         .disposed(by: disposeBag)
     }
